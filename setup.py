@@ -6,7 +6,7 @@ setuptools.setup(
     author='dotereschenko',
     description='Predators-and-Prey',
     long_description_content_type="text/markdown",
-    url='https://github.com/dotereschenko/Predators-and-Prey',
+    url='https://github.com/dotereschenko/Predators-and-Prey/stage1',
     license='MIT',
     packages=setuptools.find_packages(exclude=['tests']),
     install_requires=[
