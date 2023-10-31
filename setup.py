@@ -9,8 +9,10 @@ setuptools.setup(
     url='https://github.com/dotereschenko/Predators-and-Prey',
     license='MIT',
     packages=setuptools.find_packages(exclude=['tests']),
-    install_requires=['opencv-python',
-                      'Pillow',
-                      'numpy',
-                     ],
+    install_requires=[
+        'opencv-python',
+        'Pillow',
+        'numpy',
+        'Predators-and-Prey==0.1'  # Specify the correct version
+    ],
 )
